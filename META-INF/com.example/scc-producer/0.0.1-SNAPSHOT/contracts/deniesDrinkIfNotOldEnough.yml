@@ -1,0 +1,17 @@
+name: denies drink if not old enough
+request:
+  url: /check
+  method: GET
+  body:
+    firstName: Garcia
+    lastName: The Bear
+    age: 20
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    firstName: Garcia
+    lastName: The Bear
+    age: 20
+    allowedToDrink: false

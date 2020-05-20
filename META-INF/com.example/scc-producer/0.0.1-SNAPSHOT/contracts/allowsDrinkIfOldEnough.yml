@@ -1,0 +1,17 @@
+name: allows drink if old enough
+request:
+  url: /check
+  method: GET
+  body:
+    firstName: Barbara
+    lastName: Roberts
+    age: 59
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    firstName: Barbara
+    lastName: Roberts
+    age: 59
+    allowedToDrink: true
