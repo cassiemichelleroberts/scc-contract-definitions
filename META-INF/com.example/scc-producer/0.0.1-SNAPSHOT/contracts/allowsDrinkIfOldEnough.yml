@@ -1,7 +1,7 @@
 name: allows drink if old enough
 request:
   url: /check
-  method: GET
+  method: POST
   body:
     firstName: Barbara
     lastName: Roberts
