@@ -15,3 +15,5 @@ response:
     lastName: The Bear
     age: 20
     allowedToDrink: false
+  headers:
+    Content-Type: application/json

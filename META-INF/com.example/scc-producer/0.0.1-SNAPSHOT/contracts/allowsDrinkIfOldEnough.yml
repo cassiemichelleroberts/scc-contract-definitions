@@ -15,3 +15,5 @@ response:
     lastName: Roberts
     age: 59
     allowedToDrink: true
+  headers:
+    Content-Type: application/json
